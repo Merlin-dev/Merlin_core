@@ -46,6 +46,7 @@
     <Compile Include="CommunicationServer.cs" />
     <Compile Include="Packet\LogMessage.cs" />
     <Compile Include="Packet\PacketHeader.cs" />
+    <Compile Include="Packet\ThreadCommand.cs" />
     <Compile Include="Packet\ThreadInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
