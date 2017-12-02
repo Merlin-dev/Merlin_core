@@ -44,6 +44,7 @@
     <Compile Include="CommunicationManager.cs" />
     <Compile Include="CommunicationClient.cs" />
     <Compile Include="CommunicationServer.cs" />
+    <Compile Include="Packet\LogMessage.cs" />
     <Compile Include="Packet\PacketHeader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
