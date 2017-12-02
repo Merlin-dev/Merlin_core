@@ -7,8 +7,8 @@
     <ProjectGuid>{C534A0A2-D72E-4CA8-BC77-E2F68D47A533}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Merlin.IPC</RootNamespace>
-    <AssemblyName>Merlin.IPC</AssemblyName>
+    <RootNamespace>Merlin.Communication</RootNamespace>
+    <AssemblyName>Merlin.Communication</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -46,6 +46,7 @@
     <Compile Include="CommunicationServer.cs" />
     <Compile Include="Packet\LogMessage.cs" />
     <Compile Include="Packet\PacketHeader.cs" />
+    <Compile Include="Packet\ThreadInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
