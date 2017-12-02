@@ -8,7 +8,6 @@ namespace Merlin.Communication
     /// <remarks>
     /// Currently limitted to "Abort" command only
     /// </remarks>
-    [Guid("70fb4d37-d356-471f-9464-ef56c2b95a22")]
     public class ThreadCommand
     {
         /// <summary>

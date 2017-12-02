@@ -6,7 +6,6 @@ namespace Merlin.Communication
     /// <summary>
     /// Info packet used to store information about parallel threads used in the Hook
     /// </summary>
-    [Guid("0e266bb8-35ec-4f05-8f31-92830a4fde68")]
     public class ThreadInfo
     {
         /// <summary>

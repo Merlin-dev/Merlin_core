@@ -6,7 +6,6 @@ namespace Merlin.Communication
     /// <summary>
     /// Log message
     /// </summary>
-    [Guid("6556a9af-4b23-4eb6-ab24-b443f60bb87a")]
     public struct LogMessage
     {
         /// <summary>

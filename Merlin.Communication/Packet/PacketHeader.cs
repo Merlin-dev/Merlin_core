@@ -6,7 +6,6 @@ namespace Merlin.Communication
     /// <summary>
     /// Header of every packet sent via TCP network, used to identify packet when deserializing
     /// </summary>
-    [Guid("783c242d-b60e-45d9-b35e-5c1219e39915")]
     public struct PacketHeader
     {
         public Guid GUID;
