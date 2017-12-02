@@ -11,9 +11,6 @@ namespace Merlin.Concurrent
     /// <remarks>
     /// All public and protected members of <see cref="ConcurrentDictionary{TKey,TValue}"/> are thread-safe and may be used
     /// concurrently from multiple threads.
-    /// 
-    /// This, is not 100% correct implementation, but it is working.
-    /// 
     /// </remarks>
     public class ConcurrentDictionary<TKey, TValue>
     {

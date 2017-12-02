@@ -6,11 +6,15 @@ using System.Linq;
 namespace Merlin.Concurrent
 {
     /// <summary>
-    /// 
+    /// Represents a thread-safe collection of items
     /// </summary>
-    /// <typeparam name="T"></typeparam>
+    /// <typeparam name="T">The type of item.</typeparam>
     /// <seealso cref="System.Collections.Generic.IEnumerable{T}" />
     /// <seealso cref="System.Collections.IEnumerable" />
+    /// <remarks>
+    /// All public and protected members of <see cref="ConcurrentList{T}"/> are thread-safe and may be used
+    /// concurrently from multiple threads.
+    /// </remarks>
     public class ConcurrentList<T> : IEnumerable<T>, IEnumerable
     {
         private List<T> _list = new List<T>();
@@ -41,10 +45,10 @@ namespace Merlin.Concurrent
         }
 
         /// <summary>
-        /// Returns an enumerator that iterates through the collection.
+        /// Returns an enumerator that iterates through the <see cref="ConcurrentList{T}"/>.
         /// </summary>
         /// <returns>
-        /// An enumerator that can be used to iterate through the collection.
+        /// An enumerator that can be used to iterate through the <see cref="ConcurrentList{T}"/>.
         /// </returns>
         public IEnumerator<T> GetEnumerator()
         {
@@ -55,7 +59,7 @@ namespace Merlin.Concurrent
         }
 
         /// <summary>
-        /// Removes the specified item.
+        /// Removes the first occurence of a specific object from the <see cref="ConcurrentList{T}"/>.
         /// </summary>
         /// <param name="item">The item.</param>
         public void Remove(T item)
@@ -67,7 +71,7 @@ namespace Merlin.Concurrent
         }
 
         /// <summary>
-        /// Removes at.
+        /// Removes specific element at the specified index of the <see cref="ConcurrentList{T}"/>.
         /// </summary>
         /// <param name="index">The index.</param>
         public void RemoveAt(int index)
@@ -79,7 +83,7 @@ namespace Merlin.Concurrent
         }
 
         /// <summary>
-        /// Removes all.
+        /// Removes all the elements that match the conditions defined by the specified predicate.
         /// </summary>
         /// <param name="match">The match.</param>
         public void RemoveAll(Predicate<T> match)
@@ -91,7 +95,7 @@ namespace Merlin.Concurrent
         }
 
         /// <summary>
-        /// Clears this instance.
+        /// Removes all elements from the <see cref="ConcurrentList{T}"/>.
         /// </summary>
         public void Clear()
         {
@@ -102,10 +106,10 @@ namespace Merlin.Concurrent
         }
 
         /// <summary>
-        /// Returns an enumerator that iterates through a collection.
+        /// Returns an enumerator that iterates through a <see cref="ConcurrentList{T}"/>.
         /// </summary>
         /// <returns>
-        /// An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.
+        /// An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the <see cref="ConcurrentList{T}"/>.
         /// </returns>
         IEnumerator IEnumerable.GetEnumerator()
         {
