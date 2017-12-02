@@ -14,6 +14,6 @@ namespace Merlin.Communication
         /// <summary>
         /// The thread information array
         /// </summary>
-        ThreadInfo[] ThreadInfo;
+        public ThreadInfo[] ThreadInfo;
     }
 }
