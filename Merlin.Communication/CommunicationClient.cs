@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Text;
 using System.Xml.Serialization;
 
-namespace Merlin.IPC
+namespace Merlin.Communication
 {
     /// <summary>
     /// Class wrapping <see cref="TcpClient"/> class, used as a client for IPC communication

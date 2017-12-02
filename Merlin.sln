@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merlin.IPC", "Merlin.IPC\Merlin.IPC.csproj", "{C534A0A2-D72E-4CA8-BC77-E2F68D47A533}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merlin.Communication", "Merlin.Communication\Merlin.Communication.csproj", "{C534A0A2-D72E-4CA8-BC77-E2F68D47A533}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

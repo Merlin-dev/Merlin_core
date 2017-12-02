@@ -2,7 +2,7 @@
 using System.Net;
 using System.Net.Sockets;
 
-namespace Merlin.IPC
+namespace Merlin.Communication
 {
     /// <summary>
     /// Class wrapping <see cref="TcpListener"/> class, used as a server for IPC Communication

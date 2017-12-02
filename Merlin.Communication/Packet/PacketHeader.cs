@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace Merlin.IPC
+namespace Merlin.Communication
 {
     /// <summary>
     /// Header of every packet sent via TCP network, used to identify packet when deserializing

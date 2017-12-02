@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Merlin.IPC
+namespace Merlin.Communication
 {
     /// <summary>
     ///
