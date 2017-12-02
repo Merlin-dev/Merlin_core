@@ -9,7 +9,6 @@ using System.Xml.Serialization;
 
 namespace Merlin.IPC
 {
-
     /// <summary>
     /// Class wrapping <see cref="TcpClient"/> class, used as a client for IPC communication
     /// </summary>
@@ -26,7 +25,6 @@ namespace Merlin.IPC
         private object _getTypeFromGuidLock = new object();
 
         private static Dictionary<Guid, Type> _guidTypeCache = new Dictionary<Guid, Type>();
-
 
         /// <summary>
         /// Initializes a new instance of the <see cref="CommunicationClient"/> class.
