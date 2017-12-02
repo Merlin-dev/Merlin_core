@@ -1,7 +1,4 @@
-﻿using System;
-using System.Runtime.InteropServices;
-
-namespace Merlin.Communication
+﻿namespace Merlin.Communication
 {
     /// <summary>
     /// Info packet used to store information about parallel threads used in the Hook

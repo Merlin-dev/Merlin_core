@@ -1,6 +1,4 @@
-﻿using System.Runtime.InteropServices;
-
-namespace Merlin.Communication
+﻿namespace Merlin.Communication
 {
     /// <summary>
     /// Command packet, which allows you to send specific commands to specific thread
