@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Merlin.Communication.Packet
+namespace Merlin.Communication
 {
     /// <summary>
     /// Collection of informations about running threads
