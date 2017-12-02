@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Merlin.Concurrent
 {
     /// <summary>
-    /// Represents a thread-safe queue of items.
+    /// Represents a thread-safe sequence of items.
     /// </summary>
     /// <typeparam name="T">The type of item.</typeparam>
     /// <remarks>
@@ -24,6 +25,19 @@ namespace Merlin.Concurrent
             lock (_masterLock)
             {
                 return _queue.Any();
+            }
+        }
+
+        /// <summary>
+        /// Determines whether any element of sequence satisfies a condition.
+        /// </summary>
+        /// <param name="predicate">The predicate.</param>
+        /// <returns></returns>
+        public bool Any(Func<T, bool> predicate)
+        {
+            lock (_masterLock)
+            {
+                return _queue.Any(predicate);
             }
         }
 
