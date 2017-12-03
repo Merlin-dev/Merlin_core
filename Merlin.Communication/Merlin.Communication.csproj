@@ -47,7 +47,7 @@
     <Compile Include="Packet\PacketHeader.cs" />
     <Compile Include="Packet\ThreadCommand.cs" />
     <Compile Include="Packet\ThreadInfo.cs" />
-    <Compile Include="Packet\RunningThreadInfoCollection.cs" />
+    <Compile Include="Packet\RunningThreadsCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

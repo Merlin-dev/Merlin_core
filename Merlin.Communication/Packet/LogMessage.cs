@@ -5,7 +5,7 @@ namespace Merlin.Communication
     /// <summary>
     /// Log message
     /// </summary>
-    public struct LogMessage
+    public class LogMessage
     {
         /// <summary>
         /// Should log be cleared?

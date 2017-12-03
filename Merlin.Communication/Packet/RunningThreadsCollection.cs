@@ -3,7 +3,7 @@
     /// <summary>
     /// Collection of informations about running threads
     /// </summary>
-    public struct RunningThreadInfoCollection
+    public class RunningThreadsCollection
     {
         /// <summary>
         /// The thread information array
