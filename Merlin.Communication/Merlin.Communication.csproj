@@ -43,6 +43,7 @@
     <Compile Include="CommunicationManager.cs" />
     <Compile Include="CommunicationClient.cs" />
     <Compile Include="CommunicationServer.cs" />
+    <Compile Include="Packet\ExecuteScript.cs" />
     <Compile Include="Packet\LogMessage.cs" />
     <Compile Include="Packet\PacketHeader.cs" />
     <Compile Include="Packet\ThreadCommand.cs" />
