@@ -18,10 +18,5 @@ namespace Merlin.Communication
         /// The path to DLL
         /// </summary>
         public string AssemblyPath;
-
-        /// <summary>
-        /// The assembly qualified names of the scripts
-        /// </summary>
-        public string[] ScriptAssemblyQualifiedNames;
     }
 }
