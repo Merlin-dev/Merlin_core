@@ -8,7 +8,7 @@ namespace Merlin.Communication
     /// <summary>
     /// Loads and executes DLL, and launches the scripts
     /// </summary>
-    public class ExecuteScript
+    public class ExecutePlugin
     {
         /// <summary>
         /// The plugin name
